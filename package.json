@@ -1,16 +1,18 @@
 {
-    "name": "Shadow",
-    "version": "1.0.0",
-    "repository": "https://github.com/FogNetwork/Shadow",
-    "bugs": {
-        "url": "https://github.com/FogNetwork/Shadow/issues"
-    },
-    "description": "Shadow is a simple yet stunning service built to access any website",
-    "main": "app.js",
-    "scripts": {
-        "start": "node app.js"
-    },
-    "author": "Fog Network",
+  "name": "yaz-advanced",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "dotenv": "^16.3.1",
+    "express-rate-limit": "^7.0.0"
+},
+    "author": "Yaz Network",
     "license": "MIT",
     "dependencies": {
         "acorn-hammerhead": "^0.5.0",
